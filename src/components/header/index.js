@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 const Header = ({openModal}) => {  
 
@@ -23,6 +23,12 @@ const Header = ({openModal}) => {
               className="mr-4 hover:text-gray-300 transition-colors duration-200"
             >
               Sobre
+            </a>
+            <a
+              href="/content"
+              className="mr-4 hover:text-gray-300 transition-colors duration-200"
+            >
+              Produtos
             </a>
             <button
               onClick={handleOpenLogin}
