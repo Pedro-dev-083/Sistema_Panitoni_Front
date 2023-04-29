@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from "./styled";
-import Modal from "../../components/modals/modal";
 
 const Home = () => {
 
